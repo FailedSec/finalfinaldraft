@@ -1,0 +1,26 @@
+# FinalFinal Exploit PoC Requirements
+
+# Core dependencies
+cryptography>=41.0.0
+requests>=2.31.0
+pycryptodome>=3.19.0
+
+# Network and communication
+flask>=3.0.0
+websockets>=12.0
+
+# Encoding and data handling
+base64io>=1.0.3
+pywin32>=306; platform_system=="Windows"
+
+# Logging and monitoring
+colorama>=0.4.6
+python-dateutil>=2.8.2
+
+# Optional: MS Graph API simulation
+msal>=1.24.0
+msgraph-core>=0.2.2
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
